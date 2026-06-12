@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Webservice
-  appName: webservice and db
+  project: test project
+  appName: test app
   config:
     codeReview:
       summarize: true
@@ -44,7 +44,7 @@ revolte:
             cpu: 2
             memory: 1
             storage: 30
-            engine: postgres
+            engine: mysql
     qa:
       branch: qa
       codeReview: true
@@ -76,7 +76,7 @@ revolte:
             cpu: 2
             memory: 1
             storage: 30
-            engine: postgres
+            engine: mysql
     production:
       branch: qa
       codeReview: true
@@ -151,4 +151,4 @@ revolte:
             cpu: 2
             memory: 1
             storage: 30
-            engine: postgres
+            engine: mysql
